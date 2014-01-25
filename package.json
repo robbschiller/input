@@ -1,0 +1,23 @@
+{
+  "name": "input",
+  "version": "0.0.0",
+  "description": "input =====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robbschiller/input.git"
+  },
+  "author": "Robb Schiller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbschiller/input/issues"
+  },
+  "homepage": "https://github.com/robbschiller/input",
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-sass": "~0.5.2"
+  }
+}

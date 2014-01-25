@@ -1,0 +1,29 @@
+// ********************
+//
+// Header Style
+//
+// ********************
+
+.navbar {
+  background: $color-brand-asset;
+  padding: 20px 0;
+
+  // Logo Element
+  .navbar--logo {
+    display: inline-block;
+  }
+
+  // Navigation Element
+  .navbar--nav {
+    display: inline-block;
+    float: right;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  li {
+    display: inline;
+  }
+}
