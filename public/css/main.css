@@ -183,6 +183,9 @@ table {
   -moz-box-flex: 1;
   -webkit-box-flex: 1; }
 
+.grid > .grid--item {
+  padding-left: 1em; }
+
 .grid--item_center {
   align-self: center; }
 
@@ -191,7 +194,7 @@ html {
   font-size: 1.125em; }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto; }
 
@@ -213,6 +216,9 @@ html {
 
 .masthead {
   margin: 12em 0 16em; }
+  .masthead p {
+    max-width: 600px;
+    margin: 0 auto; }
 
 .btn, .btn--navbar, .btn--primary, .btn--warning, .btn--danger {
   border: 3px solid;
@@ -247,34 +253,8 @@ html {
   border-color: #903D3D;
   background: #903D3D; }
 
-.input {
-  border: 1px solid #F2F2F2;
-  padding: 6px;
-  font-size: 90%;
-  width: 50%; }
-  .input:hover {
-    border-color: #d8d8d8;
-    transition: border-color 0.2s ease-in-out !important;
-    -o-transition: border-color 0.2s ease-in-out !important;
-    -ms-transition: border-color 0.2s ease-in-out !important;
-    -moz-transition: border-color 0.2s ease-in-out !important;
-    -webkit-transition: border-color 0.2s ease-in-out !important; }
-  .input:focus {
-    outline: 1px solid #bfbfbf;
-    border: 1px solid #bfbfbf;
-    transition: border-color 0.2s ease-in-out !important;
-    -o-transition: border-color 0.2s ease-in-out !important;
-    -ms-transition: border-color 0.2s ease-in-out !important;
-    -moz-transition: border-color 0.2s ease-in-out !important;
-    -webkit-transition: border-color 0.2s ease-in-out !important;
-    outline-offset: 0; }
-
-.fieldset {
-  border: none;
-  margin: 10px 0;
-  padding: 0; }
-  .fieldset .input {
-    margin: 2px 0; }
+.form {
+  margin: 1em 0 4em; }
 
 a {
   color: #454545; }
@@ -291,8 +271,7 @@ a {
 
 .footer {
   background: #F2F2F2;
-  padding: 2em 0;
-  margin: 2em 0 0 0; }
+  padding: 2em 0; }
 
 .table {
   text-align: center;
@@ -305,10 +284,14 @@ a {
     border: 1px solid #F2F2F2; }
 
 .input-one {
-  background: #f2f2f2;
-  padding: 5em 0; }
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 10em 0; }
+
+.input-two {
+  border-bottom: 1px solid #F2F2F2;
+  padding: 10em 0; }
 
 .code {
   background: white;
-  border: #cdcdcd;
-  padding: 10px; }
+  border: #cdcdcd; }

@@ -13,7 +13,7 @@
 	flex-wrap:           wrap;
 	-ms-flex-wrap:       wrap;
 	-webkit-flex-wrap:   wrap;
-	list-style:none;
+	list-style:					 none;
 }
 
 .grid--item {
@@ -22,6 +22,10 @@
 	-webkit-flex:       1;
 	-moz-box-flex:      1;
 	-webkit-box-flex:   1;
+}
+
+.grid > .grid--item {
+	padding-left: 1em;
 }
 
 .grid--item_center {

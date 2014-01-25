@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+
 		<title>The Input Tag</title>
 
 		<link rel="stylesheet" type="text/css" href="/public/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/public/lib/google-code-prettify-lite/prettify.css">
+		<style>.prettyprint ol.linenums > li { list-style-type: decimal; }</style>
 	</head>
+
 	<body>
+
 		<header class="container">
 			<div class="grid masthead">
 				<div class="grid--item centered">
 					<h1>Input</h1>
-					<h3>Experimenting with the form and function of the input tag.</h3>
-					<p>How many variations of the input can be formed with just one selector for each the label and input tags. This little project is an experiement on one of the webs most important points of interaction.</p>
+					<h3>Experimenting with form and function on the input tag.</h3>
+					<p>How many variations of the input can be formed with just one selector for each the label and input tags? This little project is an experiement on one of the webs most important points of interaction.</p>
 				</div>
 			</div>
 		</header>
+
 		<main>
 			<section class="input-one">
 				<div class="container">
-					<form class="centered">
+					<form class="centered form">
 						<label>Input</label>
 						<input type="text">
 					</form>
@@ -27,16 +34,18 @@
 					<div class="grid">
 						<div class="grid--item">
 							<h4>HTML</h4>
-							<code class="code">
-								<label>Input</label>
-								<input type="text">
-							</code>
+							<pre class="prettyprint code linenums">
+								&lt;label&gt;Input&lt;/label&gt;
+								&lt;input type=&quot;text&quot;&gt;
+							</pre>
 						</div>
 						<div class="grid--item">
 							<h4>CSS</h4>
-							<code>
-								None
-							</code>
+							<pre class="prettyprint code">
+								.label {
+									background: blue;
+								}
+							</pre>
 						</div>
 						<div class="grid--item">
 							<h4>Notes</h4>
@@ -45,7 +54,41 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="input-two">
+				<div class="container">
+					<form class="centered form">
+						<label>Input</label>
+						<input type="text">
+					</form>
+				</div>
+				<div class="container">
+					<div class="grid">
+						<div class="grid--item">
+							<h4>HTML</h4>
+							<pre class="prettyprint code linenums">
+								&lt;label&gt;Input&lt;/label&gt;
+								&lt;input type=&quot;text&quot;&gt;
+							</pre>
+						</div>
+						<div class="grid--item">
+							<h4>CSS</h4>
+							<pre class="prettyprint code">
+								.label {
+									background: red;
+								}
+							</pre>
+						</div>
+						<div class="grid--item">
+							<h4>Notes</h4>
+							<p>Real simple one here.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</main>
+
 		<footer class="footer">
 			<div class="container">
 				<div class="centered">
@@ -53,5 +96,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<script type="text/javascript" src="/public/lib/google-code-prettify-lite/prettify.js"></script>
+		<script type="text/javascript">prettyPrint();</script>
 	</body>
 </html>
