@@ -14,8 +14,6 @@
 	-ms-flex-wrap:       wrap;
 	-webkit-flex-wrap:   wrap;
 	list-style:none;
-	margin: 0;
-	padding: 0;
 }
 
 .grid--item {
@@ -24,4 +22,8 @@
 	-webkit-flex:       1;
 	-moz-box-flex:      1;
 	-webkit-box-flex:   1;
+}
+
+.grid--item_center {
+	align-self: center;
 }

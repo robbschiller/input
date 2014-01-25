@@ -13,7 +13,7 @@ gulp.task('default', function () {
 	gulp.run('sass');
 
 	// Watch scss files
-	gulp.watch(['./public/scss/**.scss'], function () {
+	gulp.watch(['./public/scss/**.scss', './public/scss/**/*.scss'], function () {
 		gulp.run('sass');
 	});
 });

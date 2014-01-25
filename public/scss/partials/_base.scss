@@ -5,28 +5,21 @@
 // ********************
 
 //
-// Oh. That thing.
-//
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-//
-// Base Typographic Weights
+// Type Settings
 //
 
 $type-light: 100;
 $type-regular: 400;
 $type-bold: 600;
+$type-base-family: 'Helvetica Neue', sans-serif;
+$type-base-weight: $type-regular;
+$type-base-size: 1.125em;
 
 //
-// Base Typography
+// Layout Settings
 //
 
-$base-type: 'Helvetica Neue', sans-serif;
-$base-type-weight: $type-regular;
-$base-type-size: 1.125em;
+$container-width: 1000px;
 
 // ********************
 //
