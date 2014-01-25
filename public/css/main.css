@@ -283,14 +283,22 @@ a {
   .table .tbody .tr .td {
     border: 1px solid #F2F2F2; }
 
-.input-one {
-  border-top: 1px solid #F2F2F2;
-  border-bottom: 1px solid #F2F2F2;
+.section-one {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
   padding: 10em 0; }
+  .section-one .input-one {
+    background: #f2f3fc;
+    border: 0;
+    padding: 5px; }
 
-.input-two {
-  border-bottom: 1px solid #F2F2F2;
+.section-two {
+  border-bottom: 1px solid #f2f2f2;
   padding: 10em 0; }
+  .section-two .input-two {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px; }
 
 .code {
   background: white;

@@ -4,13 +4,25 @@
 //
 // ********************
 
-.input-one {
-	border-top: 1px solid $color-brand-asset;
-	border-bottom: 1px solid $color-brand-asset;
+.section-one {
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
 	padding: 10em 0;
+
+	.input-one {
+		background: #f2f3fc;
+		border: 0;
+		padding: 5px;
+	}
 }
 
-.input-two {
-	border-bottom: 1px solid $color-brand-asset;
+.section-two {
+	border-bottom: 1px solid #f2f2f2;
 	padding: 10em 0;
+
+	.input-two {
+		background: transparent;
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
 }
